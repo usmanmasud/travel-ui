@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "name": "Bondi Beach",
+        "image": "https://example.com/images/bondi-beach.jpg",
+        "description": "A popular beach destination known for its golden sands and great surfing spots.",
+        "rating": "4.8",
+        "duration": "3 hours",
+        "location": "Sydney, Australia",
+        "category": "Beaches"
+    },
+    {
+        "id": "2",
+        "name": "Mount Everest Base Camp",
+        "image": "https://example.com/images/everest-base-camp.jpg",
+        "description": "A thrilling trek to the base camp of the highest peak in the world.",
+        "rating": "4.9",
+        "duration": "12 days",
+        "location": "Solukhumbu, Nepal",
+        "category": "Mountains"
+    },
+    {
+        "id": "3",
+        "name": "New York City",
+        "image": "https://example.com/images/new-york-city.jpg",
+        "description": "The city that never sleeps, offering iconic landmarks and vibrant culture.",
+        "rating": "4.7",
+        "duration": "2 days",
+        "location": "New York, USA",
+        "category": "Cities"
+    },
+    {
+        "id": "4",
+        "name": "Black Forest",
+        "image": "https://example.com/images/black-forest.jpg",
+        "description": "A magical forest with dense trees and charming villages.",
+        "rating": "4.6",
+        "duration": "5 hours",
+        "location": "Baden-Württemberg, Germany",
+        "category": "Forests"
+    },
+    {
+        "id": "5",
+        "name": "Lake Tahoe",
+        "image": "https://example.com/images/lake-tahoe.jpg",
+        "description": "A pristine freshwater lake surrounded by mountains.",
+        "rating": "4.9",
+        "duration": "Full day",
+        "location": "California/Nevada, USA",
+        "category": "Lakes"
+    },
+    {
+        "id": "6",
+        "name": "Machu Picchu",
+        "image": "https://example.com/images/machu-picchu.jpg",
+        "description": "A UNESCO World Heritage site with breathtaking ancient ruins.",
+        "rating": "5.0",
+        "duration": "6 hours",
+        "location": "Cusco Region, Peru",
+        "category": "Historical Sites"
+    },
+    {
+        "id": "7",
+        "name": "Yellowstone National Park",
+        "image": "https://example.com/images/yellowstone.jpg",
+        "description": "A natural wonder with geysers, wildlife, and stunning landscapes.",
+        "rating": "4.8",
+        "duration": "3 days",
+        "location": "Wyoming, USA",
+        "category": "National Parks"
+    },
+    {
+        "id": "8",
+        "name": "Maldives Islands",
+        "image": "https://example.com/images/maldives.jpg",
+        "description": "A tropical paradise with turquoise waters and luxurious resorts.",
+        "rating": "5.0",
+        "duration": "5 days",
+        "location": "Maldives",
+        "category": "Islands"
+    },
+    {
+        "id": "9",
+        "name": "Sahara Desert",
+        "image": "https://example.com/images/sahara.jpg",
+        "description": "Experience the vast, golden sand dunes and unique desert culture.",
+        "rating": "4.7",
+        "duration": "3 days",
+        "location": "North Africa",
+        "category": "Desserts"
+    }
+]
