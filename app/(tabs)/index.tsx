@@ -3,6 +3,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { Stack } from "expo-router";
 import {
   Image,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -14,6 +15,8 @@ import CategoryButton from "@/components/CategoryButton";
 import { useState } from "react";
 import Listings from "@/components/Listings";
 import destinations from "@/data/destinations.json";
+import GroupListings from "@/components/GroupListings";
+import { ListingType } from "@/types/ListingType";
 
 export default function Index() {
   const headerHeight = useHeaderHeight();
@@ -60,22 +63,25 @@ export default function Index() {
         }}
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
-        <Text style={styles.headText}>Explore The Beutiful World</Text>
-        <View style={styles.searchSection}>
-          <View style={styles.searchBar}>
-            <Ionicons
-              name="search"
-              size={18}
-              style={{ marginRight: 5, color: Colors.bgColor }}
-            />
-            <TextInput placeholder="Search..." />
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <Text style={styles.headText}>Explore The Beutiful World</Text>
+          <View style={styles.searchSection}>
+            <View style={styles.searchBar}>
+              <Ionicons
+                name="search"
+                size={18}
+                style={{ marginRight: 5, color: Colors.bgColor }}
+              />
+              <TextInput placeholder="Search..." />
+            </View>
+            <TouchableOpacity onPress={() => {}} style={styles.filterBtn}>
+              <Ionicons name="options" size={20} color={Colors.white} />
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity onPress={() => {}} style={styles.filterBtn}>
-            <Ionicons name="options" size={20} color={Colors.white} />
-          </TouchableOpacity>
-        </View>
-        <CategoryButton onCategoryChanged={onCatChanged} />
-        <Listings listings={destinations} />
+          <CategoryButton onCategoryChanged={onCatChanged} />
+          <Listings listings={destinations} category={category} />
+          <GroupListings listings={ListingType} />
+        </ScrollView>
       </View>
     </>
   );
